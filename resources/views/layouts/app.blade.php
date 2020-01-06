@@ -27,4 +27,7 @@
 
         @include('layouts._footer')
     </div>
+
+    <!-- Scripts -->
+    <script src="{{ mix('js/app.js') }}"></script>
 </body>
