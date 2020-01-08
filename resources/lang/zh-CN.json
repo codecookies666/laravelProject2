@@ -42,5 +42,13 @@
   "We won't ask for your password again for a few hours.": "确认完成后，接下来几个小时内您不需再输入密码。",
   "You are receiving this email because we received a password reset request for your account.": "您收到此电子邮件是因为我们收到了您帐户的密码重设请求。",
   "Your email address is not verified.": "您的电子邮件尚未验证通过",
-  "Whoops!": "哎呦！"
+  "Whoops!": "哎呦！",
+
+  "Sorry, the page you are looking for could not be found.": "抱歉，找不到您要查找的页面。",
+  "Sorry, you are not authorized to access this page.": "抱歉，您无权访问此页面。",
+  "Sorry, you are forbidden from accessing this page.": "抱歉，您被禁止访问此页面。",
+  "Sorry, your session has expired. Please refresh and try again.": "抱歉，您的会话已过期。请刷新并重试。",
+  "Sorry, you are making too many requests to our servers.": "抱歉，您对我们的服务器提出了太多请求。",
+  "Whoops, something went wrong on our servers.": "哎呀，我们的服务器出了问题。",
+  "Sorry, we are doing some maintenance. Please check back soon.": "抱歉，我们正在做一些维护工作。请返回上一页。"
 }
