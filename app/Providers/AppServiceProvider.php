@@ -23,7 +23,10 @@ class AppServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {
+	{
+		\App\Models\User::observe(\App\Observers\UserObserver::class);
+		\App\Models\Project::observe(\App\Observers\ProjectObserver::class);
+
         Carbon::setlocale('zh');
     }
 }
