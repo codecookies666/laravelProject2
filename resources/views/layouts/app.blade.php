@@ -10,6 +10,7 @@
     <meta name="csrf-token" conten="{{ csrf_token() }}">
 
     <title>@yield('title', 'Project2') - Laravel 进阶教程</title>
+    <meta name="description" content="@yield('description', 'Project2 爱好者社区')" />
 
     {{--Style--}}
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
