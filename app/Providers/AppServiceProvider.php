@@ -25,6 +25,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
 	{
 //		\App\Models\User::observe(\App\Observers\UserObserver::class);
+		\App\Models\Reply::observe(\App\Observers\ReplyObserver::class);
 //		\App\Models\Project::observe(\App\Observers\ProjectObserver::class);
         //手动注册监听器（不知道为什么没有自动生成）
         \App\Models\Topic::observe(\App\Observers\TopicObserver::class);
