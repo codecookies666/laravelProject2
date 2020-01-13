@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2020/1/13
- * Time: 17:35
- */
 
 use App\Models\Topic;
 
@@ -49,7 +43,6 @@ return [
             'sortable' => false,
         ],
     ],
-
     'edit_fields' => [
         'title' => [
             'title'    => '标题',
@@ -83,7 +76,6 @@ return [
             'title'    => '查看',
         ],
     ],
-
     'filters' => [
         'id' => [
             'title' => '内容 ID',
@@ -104,11 +96,9 @@ return [
             'options_sort_field' => 'id',
         ],
     ],
-
     'rules'   => [
         'title' => 'required'
     ],
-
     'messages' => [
         'title.required' => '请填写标题',
     ],

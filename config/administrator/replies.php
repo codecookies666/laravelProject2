@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2020/1/13
- * Time: 17:51
- */
 
 use App\Models\Reply;
 
