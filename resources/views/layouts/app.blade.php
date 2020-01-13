@@ -9,8 +9,9 @@
     {{--CSRF token--}}
     <meta name="csrf-token" conten="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Project2') - Laravel 进阶教程</title>
-    <meta name="description" content="@yield('description', 'Project2 爱好者社区')" />
+    <title>@yield('title', 'Project2') - {{ setting('site_name', 'Laravel web项目') }}</title>
+    <meta name="description" content="@yield('description', setting('seo_description', 'Project2 web社区。'))" />
+    <meta name="keyword" content="@yield('keyword', setting('seo_keyword', 'Project2,社区,论坛,开发者论坛'))" />
 
     {{--Style--}}
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
